@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import CountryHome from './component/countryweater/CountryHome';
+import News from './component/NewsWeb/News';
+import Home from './component/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +20,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <Home />
+      {/* <CountryHome /> */}
+      {/* <News /> */}
     </div>
   );
 }
